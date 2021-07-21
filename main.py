@@ -1,9 +1,3 @@
-class document():
-    def __init__(self,name):
-        self.name=name
-    def write(self,tag):
-        return "done"
-        
 class Tabla():
     def __init__(self,nombre, link):
         self.elementos=[]
@@ -18,3 +12,9 @@ class Ramo():
       document.write("")
 
 
+from github_com.PythonForChange.Egg import Document
+
+
+document=Document("template")
+document.addTag("h1","Hi","aqui")
+document.write("xd","2")
