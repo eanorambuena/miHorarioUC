@@ -11,10 +11,11 @@ class Ramo():
     def add(self):
       document.write("")
 
+import subprocess, sys
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'git+https://github.com/PythonForChange/Egg.git'])
 
-from github_com.PythonForChange.Egg import Document
+import Egg
 
-
-document=Document("template")
+document=Egg.pyegg.Document("template")
 document.addTag("h1","Hi","aqui")
 document.write("xd","2")
