@@ -12,6 +12,8 @@ Personalize su propia página web miHorario, con una foto de su horario y los li
 
 - Fácil de usar
 
+- Tiempo de carga reducido: es estática
+
 ## Requisitos
 
 - python 3
