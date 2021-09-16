@@ -1,4 +1,4 @@
-# pip install eggdriver==0.0.1a6
+# pip install eggdriver>=0.0.1a6
 
 from horario import *
 
